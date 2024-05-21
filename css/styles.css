@@ -203,15 +203,6 @@ ul ol {
   margin-bottom: 0;
 }
 
-dt {
-  font-weight: 700;
-}
-
-dd {
-  margin-bottom: 0.5rem;
-  margin-left: 0;
-}
-
 blockquote {
   margin: 0 0 1rem;
 }
@@ -581,24 +572,6 @@ progress {
   text-transform: uppercase;
 }
 
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-.blockquote > :last-child {
-  margin-bottom: 0;
-}
-
-.blockquote-footer {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  font-size: 0.875em;
-  color: #6c757d;
-}
-.blockquote-footer::before {
-  content: "— ";
-}
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -613,27 +586,7 @@ progress {
   height: auto;
 }
 
-.figure {
-  display: inline-block;
-}
-
-.figure-img {
-  margin-bottom: 0.5rem;
-  line-height: 1;
-}
-
-.figure-caption {
-  font-size: 0.875em;
-  color: #6c757d;
-}
-
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
+.container{
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
@@ -643,31 +596,6 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .container-sm, .container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container-md, .container-sm, .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
-  }
-}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -832,66 +760,6 @@ progress {
 
 .offset-11 {
   margin-left: 91.66666667%;
-}
-
-.g-0,
-.gx-0 {
-  --bs-gutter-x: 0;
-}
-
-.g-0,
-.gy-0 {
-  --bs-gutter-y: 0;
-}
-
-.g-1,
-.gx-1 {
-  --bs-gutter-x: 0.25rem;
-}
-
-.g-1,
-.gy-1 {
-  --bs-gutter-y: 0.25rem;
-}
-
-.g-2,
-.gx-2 {
-  --bs-gutter-x: 0.5rem;
-}
-
-.g-2,
-.gy-2 {
-  --bs-gutter-y: 0.5rem;
-}
-
-.g-3,
-.gx-3 {
-  --bs-gutter-x: 1rem;
-}
-
-.g-3,
-.gy-3 {
-  --bs-gutter-y: 1rem;
-}
-
-.g-4,
-.gx-4 {
-  --bs-gutter-x: 1.5rem;
-}
-
-.g-4,
-.gy-4 {
-  --bs-gutter-y: 1.5rem;
-}
-
-.g-5,
-.gx-5 {
-  --bs-gutter-x: 3rem;
-}
-
-.g-5,
-.gy-5 {
-  --bs-gutter-y: 3rem;
 }
 
 @media (min-width: 576px) {
